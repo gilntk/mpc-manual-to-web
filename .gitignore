@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# MkDocs build output
+site/
+
+# Source PDF (large binary, don't want it bloating git history)
+*.pdf
