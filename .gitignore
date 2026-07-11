@@ -11,3 +11,6 @@ site/
 
 # Source PDF (large binary, don't want it bloating git history)
 *.pdf
+
+docs/
+nav_snippet.yml

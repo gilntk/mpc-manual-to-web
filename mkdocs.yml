@@ -1,0 +1,388 @@
+site_name: MPC Manual
+theme:
+  name: material
+  features:
+    - navigation.indexes
+docs_dir: docs
+
+nav:
+- Home: index.md
+- Introduction:
+  - introduction/index.md
+  - Support: introduction/support.md
+  - About This User Guide: introduction/about-this-user-guide.md
+  - Important Notes:
+    - introduction/important-notes/index.md
+    - MPC2 vs. MPC3: introduction/important-notes/mpc2-vs-mpc3.md
+    - Updates in v3.9: introduction/important-notes/updates-in-v39.md
+  - Setup: introduction/setup.md
+- Tutorial:
+  - tutorial/index.md
+  - Starting Up: tutorial/starting-up.md
+  - Recording Tracks with Main Mode:
+    - Main Mode Overview: tutorial/recording-tracks-with-main-mode/main-mode-overview.md
+    - Recording a Drum Sequence: tutorial/recording-tracks-with-main-mode/recording-a-drum-sequence.md
+    - Creating and Recording a Keygroup Track: tutorial/recording-tracks-with-main-mode/creating-and-recording-a-keygroup-track.md
+    - Adding and Recording with a Plugin Track: tutorial/recording-tracks-with-main-mode/adding-and-recording-with-a-plugin-track.md
+  - Working with Audio Tracks:
+    - tutorial/working-with-audio-tracks/index.md
+    - Recording an External Instrument: tutorial/working-with-audio-tracks/recording-an-external-instrument.md
+    - Loading Sounds with the Browser: tutorial/working-with-audio-tracks/loading-sounds-with-the-browser.md
+  - Working with the Linear Arranger: tutorial/working-with-the-linear-arranger.md
+  - Saving Your Work: tutorial/saving-your-work.md
+  - Editing Note Events: tutorial/editing-note-events.md
+  - Making Basic Sound Edits: tutorial/making-basic-sound-edits.md
+  - Other Features Explained:
+    - tutorial/other-features-explained/index.md
+    - Q-Links: tutorial/other-features-explained/q-links.md
+    - Step Sequencer: tutorial/other-features-explained/step-sequencer.md
+    - Drum Loops & Chop Mode: tutorial/other-features-explained/drum-loops-chop-mode.md
+    - Pad Muting & Track Muting: tutorial/other-features-explained/pad-muting-track-muting.md
+    - Sampling (Recording): tutorial/other-features-explained/sampling-recording.md
+    - Sample Editing: tutorial/other-features-explained/sample-editing.md
+    - Recording Automation with the XY Pad: tutorial/other-features-explained/recording-automation-with-the-xy-pad.md
+    - Creating a Song: tutorial/other-features-explained/creating-a-song.md
+- Operation:
+  - operation/index.md
+  - General Features:
+    - operation/general-features/index.md
+    - Control Types:
+      - operation/general-features/control-types/index.md
+      - Knobs: operation/general-features/control-types/knobs.md
+      - Parameter Values: operation/general-features/control-types/parameter-values.md
+      - Drop-Down Menus / Lists: operation/general-features/control-types/drop-down-menus-lists.md
+      - Selectors: operation/general-features/control-types/selectors.md
+      - Buttons: operation/general-features/control-types/buttons.md
+      - Checkboxes: operation/general-features/control-types/checkboxes.md
+      - Tabs: operation/general-features/control-types/tabs.md
+      - Sliders: operation/general-features/control-types/sliders.md
+      - Envelopes: operation/general-features/control-types/envelopes.md
+    - Tracks:
+      - About Tracks: operation/general-features/tracks/about-tracks.md
+      - Audio Tracks: operation/general-features/tracks/audio-tracks.md
+      - Drum Tracks: operation/general-features/tracks/drum-tracks.md
+      - Keygroup Tracks: operation/general-features/tracks/keygroup-tracks.md
+      - Plugin Tracks: operation/general-features/tracks/plugin-tracks.md
+      - MIDI Tracks: operation/general-features/tracks/midi-tracks.md
+      - CV Tracks: operation/general-features/tracks/cv-tracks.md
+    - Menu:
+      - operation/general-features/menu/index.md
+      - Toolbar:
+        - Sync: operation/general-features/menu/toolbar/sync.md
+        - Help: operation/general-features/menu/toolbar/help.md
+        - Undo History: operation/general-features/menu/toolbar/undo-history.md
+        - Tuner: operation/general-features/menu/toolbar/tuner.md
+        - MIDI Monitor: operation/general-features/menu/toolbar/midi-monitor.md
+        - Mode: operation/general-features/menu/toolbar/mode.md
+        - System Resources: operation/general-features/menu/toolbar/system-resources.md
+      - Project: operation/general-features/menu/project.md
+      - Preferences:
+        - operation/general-features/menu/preferences/index.md
+        - Info: operation/general-features/menu/preferences/info.md
+        - Activations: operation/general-features/menu/preferences/activations.md
+        - Wi-Fi: operation/general-features/menu/preferences/wi-fi.md
+        - Ethernet: operation/general-features/menu/preferences/ethernet.md
+        - Bluetooth: operation/general-features/menu/preferences/bluetooth.md
+        - Audio Device: operation/general-features/menu/preferences/audio-device.md
+        - Audio/Export: operation/general-features/menu/preferences/audioexport.md
+        - MIDI / Sync: operation/general-features/menu/preferences/midi-sync.md
+        - Hardware: operation/general-features/menu/preferences/hardware.md
+        - Sequencer: operation/general-features/menu/preferences/sequencer.md
+        - Project Defaults: operation/general-features/menu/preferences/project-defaults.md
+        - Project Load/Save: operation/general-features/menu/preferences/project-loadsave.md
+        - General: operation/general-features/menu/preferences/general.md
+        - Splice: operation/general-features/menu/preferences/splice.md
+    - Save Window: operation/general-features/save-window.md
+    - Pull-Down Menu: operation/general-features/pull-down-menu.md
+    - Time Counter / Locate: operation/general-features/time-counter-locate.md
+    - Timing Correct (TC): operation/general-features/timing-correct-tc.md
+    - Metronome (Click/Metro): operation/general-features/metronome-clickmetro.md
+    - Automation:
+      - operation/general-features/automation/index.md
+      - Global: operation/general-features/automation/global.md
+      - Tracks: operation/general-features/automation/tracks.md
+    - 16 Level: operation/general-features/16-level.md
+    - Pad Perform: operation/general-features/pad-perform.md
+    - Arpeggiator: operation/general-features/arpeggiator.md
+    - Erase: operation/general-features/erase.md
+    - Effects:
+      - operation/general-features/effects/index.md
+      - Overview: operation/general-features/effects/overview.md
+      - Insert Effects:
+        - Pads and Keygroups: operation/general-features/effects/insert-effects/pads-and-keygroups.md
+        - Tracks, Submixes, and Outputs: operation/general-features/effects/insert-effects/tracks-submixes-and-outputs.md
+      - Send/Return Effects:
+        - operation/general-features/effects/sendreturn-effects/index.md
+        - Pads and Keygroups: operation/general-features/effects/sendreturn-effects/pads-and-keygroups.md
+        - Tracks and Submixes: operation/general-features/effects/sendreturn-effects/tracks-and-submixes.md
+    - Audio Mixdown: operation/general-features/audio-mixdown.md
+    - Keyboard Control: operation/general-features/keyboard-control.md
+    - Touch Strip: operation/general-features/touch-strip.md
+    - Battery Usage: operation/general-features/battery-usage.md
+  - Modes:
+    - operation/modes/index.md
+    - Main Mode:
+      - operation/modes/main-mode/index.md
+      - Overview: operation/modes/main-mode/overview.md
+      - Toolbar: operation/modes/main-mode/toolbar.md
+      - Shortcuts: operation/modes/main-mode/shortcuts.md
+      - Function Buttons: operation/modes/main-mode/function-buttons.md
+      - Sequence Section: operation/modes/main-mode/sequence-section.md
+      - Track Section:
+        - operation/modes/main-mode/track-section/index.md
+        - Drum Tracks: operation/modes/main-mode/track-section/drum-tracks.md
+        - Keygroup Tracks: operation/modes/main-mode/track-section/keygroup-tracks.md
+        - Plugin Tracks: operation/modes/main-mode/track-section/plugin-tracks.md
+        - MIDI Tracks: operation/modes/main-mode/track-section/midi-tracks.md
+        - CV Tracks: operation/modes/main-mode/track-section/cv-tracks.md
+        - Audio Tracks: operation/modes/main-mode/track-section/audio-tracks.md
+        - Buses: operation/modes/main-mode/track-section/buses.md
+        - Track Edit: operation/modes/main-mode/track-section/track-edit.md
+      - Arrangement Section: operation/modes/main-mode/arrangement-section.md
+      - Mixer Strips: operation/modes/main-mode/mixer-strips.md
+    - Browser:
+      - operation/modes/browser/index.md
+      - Sample Assign: operation/modes/browser/sample-assign.md
+    - Channel Mixer:
+      - operation/modes/channel-mixer/index.md
+      - Volume: operation/modes/channel-mixer/volume.md
+      - Pan & Volume: operation/modes/channel-mixer/pan-volume.md
+      - Sends: operation/modes/channel-mixer/sends.md
+      - Effects: operation/modes/channel-mixer/effects.md
+      - I/O: operation/modes/channel-mixer/io.md
+    - Pad Mixer:
+      - operation/modes/pad-mixer/index.md
+      - Volume: operation/modes/pad-mixer/volume.md
+      - Pan & Volume: operation/modes/pad-mixer/pan-volume.md
+      - Sends: operation/modes/pad-mixer/sends.md
+      - Effects: operation/modes/pad-mixer/effects.md
+      - I/O: operation/modes/pad-mixer/io.md
+    - Sounds Mode:
+      - operation/modes/sounds-mode/index.md
+      - Favorites: operation/modes/sounds-mode/favorites.md
+      - Setlists: operation/modes/sounds-mode/setlists.md
+    - XYFX Mode: operation/modes/xyfx-mode.md
+    - Arrange Mode:
+      - operation/modes/arrange-mode/index.md
+      - Recording Arrangements: operation/modes/arrange-mode/recording-arrangements.md
+      - Editing Arrangements: operation/modes/arrange-mode/editing-arrangements.md
+      - Arrangement Track Editor: operation/modes/arrange-mode/arrangement-track-editor.md
+      - Saving and Exporting the Arrangement: operation/modes/arrange-mode/saving-and-exporting-the-arrangement.md
+    - Grid View:
+      - operation/modes/grid-view/index.md
+      - Audio Tracks: operation/modes/grid-view/audio-tracks.md
+      - MIDI Tracks: operation/modes/grid-view/midi-tracks.md
+      - Velocity/Automation Lane: operation/modes/grid-view/velocityautomation-lane.md
+    - Step Sequencer:
+      - operation/modes/step-sequencer/index.md
+      - Step Automation: operation/modes/step-sequencer/step-automation.md
+    - List Edit Mode: operation/modes/list-edit-mode.md
+    - Track Edit Mode:
+      - operation/modes/track-edit-mode/index.md
+      - Drum Tracks:
+        - operation/modes/track-edit-mode/drum-tracks/index.md
+        - Global: operation/modes/track-edit-mode/drum-tracks/global.md
+        - Samples/Oscs: operation/modes/track-edit-mode/drum-tracks/samplesoscs.md
+        - Envelopes: operation/modes/track-edit-mode/drum-tracks/envelopes.md
+        - Mods (Modulations): operation/modes/track-edit-mode/drum-tracks/mods-modulations.md
+        - Effects: operation/modes/track-edit-mode/drum-tracks/effects.md
+        - LFO: operation/modes/track-edit-mode/drum-tracks/lfo.md
+        - Utilities: operation/modes/track-edit-mode/drum-tracks/utilities.md
+        - Mod Matrix: operation/modes/track-edit-mode/drum-tracks/mod-matrix.md
+      - Keygroup Tracks:
+        - operation/modes/track-edit-mode/keygroup-tracks/index.md
+        - Global (Legacy and Advanced): operation/modes/track-edit-mode/keygroup-tracks/global-legacy-and-advanced.md
+        - Samples/Oscs (Legacy and Advanced): operation/modes/track-edit-mode/keygroup-tracks/samplesoscs-legacy-and-advanced.md
+        - Filters (Advanced): operation/modes/track-edit-mode/keygroup-tracks/filters-advanced.md
+        - Envelopes (Advanced): operation/modes/track-edit-mode/keygroup-tracks/envelopes-advanced.md
+        - LFO (Advanced): operation/modes/track-edit-mode/keygroup-tracks/lfo-advanced.md
+        - Utilities/Sensitivity (Advanced): operation/modes/track-edit-mode/keygroup-tracks/utilitiessensitivity-advanced.md
+        - KG Stack (Advanced): operation/modes/track-edit-mode/keygroup-tracks/kg-stack-advanced.md
+        - Mod Matrix (Advanced): operation/modes/track-edit-mode/keygroup-tracks/mod-matrix-advanced.md
+        - Randomize (Advanced): operation/modes/track-edit-mode/keygroup-tracks/randomize-advanced.md
+        - Envelopes (Legacy): operation/modes/track-edit-mode/keygroup-tracks/envelopes-legacy.md
+        - LFO (Legacy): operation/modes/track-edit-mode/keygroup-tracks/lfo-legacy.md
+        - Mods (Legacy): operation/modes/track-edit-mode/keygroup-tracks/mods-legacy.md
+        - Effects (Legacy): operation/modes/track-edit-mode/keygroup-tracks/effects-legacy.md
+      - Plugin Tracks: operation/modes/track-edit-mode/plugin-tracks.md
+      - MIDI Tracks: operation/modes/track-edit-mode/midi-tracks.md
+      - CV Tracks: operation/modes/track-edit-mode/cv-tracks.md
+      - Anatomy of an Envelope: operation/modes/track-edit-mode/anatomy-of-an-envelope.md
+    - Track Mute Mode:
+      - operation/modes/track-mute-mode/index.md
+      - Track Mute: operation/modes/track-mute-mode/track-mute.md
+      - Track Group: operation/modes/track-mute-mode/track-group.md
+    - Pad Mute Mode:
+      - operation/modes/pad-mute-mode/index.md
+      - Pad Mute: operation/modes/pad-mute-mode/pad-mute.md
+      - Pad Group: operation/modes/pad-mute-mode/pad-group.md
+    - Track View: operation/modes/track-view.md
+    - Sample Edit Mode:
+      - operation/modes/sample-edit-mode/index.md
+      - Settings: operation/modes/sample-edit-mode/settings.md
+      - Trim Mode:
+        - operation/modes/sample-edit-mode/trim-mode/index.md
+        - Assigning Samples: operation/modes/sample-edit-mode/trim-mode/assigning-samples.md
+        - Processing Slices & Samples: operation/modes/sample-edit-mode/trim-mode/processing-slices-samples.md
+      - Chop Mode:
+        - operation/modes/sample-edit-mode/chop-mode/index.md
+        - Converting or Assigning Slices: operation/modes/sample-edit-mode/chop-mode/converting-or-assigning-slices.md
+        - Processing Slices: operation/modes/sample-edit-mode/chop-mode/processing-slices.md
+      - Pad Mode:
+        - operation/modes/sample-edit-mode/pad-mode/index.md
+        - Assigning Samples: operation/modes/sample-edit-mode/pad-mode/assigning-samples.md
+        - Processing Slices & Samples: operation/modes/sample-edit-mode/pad-mode/processing-slices-samples.md
+    - Sampler:
+      - operation/modes/sampler/index.md
+      - Sample: operation/modes/sampler/sample.md
+      - Slice: operation/modes/sampler/slice.md
+      - Pad Tap: operation/modes/sampler/pad-tap.md
+      - Pad Hold: operation/modes/sampler/pad-hold.md
+      - Auto Sampler: operation/modes/sampler/auto-sampler.md
+    - Q-Link Edit:
+      - operation/modes/q-link-edit/index.md
+      - Learning Macro Assignments: operation/modes/q-link-edit/learning-macro-assignments.md
+      - Editing Macro Assignments: operation/modes/q-link-edit/editing-macro-assignments.md
+      - Q-Links: operation/modes/q-link-edit/q-links.md
+      - XY Pad: operation/modes/q-link-edit/xy-pad.md
+      - Crossfader: operation/modes/q-link-edit/crossfader.md
+    - Next Sequence Mode: operation/modes/next-sequence-mode.md
+    - MIDI Learn: operation/modes/midi-learn.md
+    - Live Control Mode:
+      - operation/modes/live-control-mode/index.md
+      - Setup: operation/modes/live-control-mode/setup.md
+      - Control Bar: operation/modes/live-control-mode/control-bar.md
+      - Matrix View: operation/modes/live-control-mode/matrix-view.md
+      - Mixer View: operation/modes/live-control-mode/mixer-view.md
+      - Device Control View: operation/modes/live-control-mode/device-control-view.md
+      - Q-Links: operation/modes/live-control-mode/q-links.md
+    - Song Mode: operation/modes/song-mode.md
+    - Key Ranges Mode: operation/modes/key-ranges-mode.md
+    - MIDI Control Mode:
+      - operation/modes/midi-control-mode/index.md
+      - Pads: operation/modes/midi-control-mode/pads.md
+      - Buttons: operation/modes/midi-control-mode/buttons.md
+      - Q-Link Knobs: operation/modes/midi-control-mode/q-link-knobs.md
+      - XY Pad: operation/modes/midi-control-mode/xy-pad.md
+    - Pad Color Mode: operation/modes/pad-color-mode.md
+    - Looper: operation/modes/looper.md
+- Hardware Features:
+  - hardware-features/index.md
+  - MPC X / MPC X Special Edition:
+    - Top Panel:
+      - hardware-features/mpc-x-mpc-x-special-edition/top-panel/index.md
+      - Navigation & Data Entry Controls: hardware-features/mpc-x-mpc-x-special-edition/top-panel/navigation-data-entry-controls.md
+      - Pad & Q-Link Controls: hardware-features/mpc-x-mpc-x-special-edition/top-panel/pad-q-link-controls.md
+      - Mode & View Controls: hardware-features/mpc-x-mpc-x-special-edition/top-panel/mode-view-controls.md
+      - Transport & Recording Controls: hardware-features/mpc-x-mpc-x-special-edition/top-panel/transport-recording-controls.md
+      - I/O & Level Controls: hardware-features/mpc-x-mpc-x-special-edition/top-panel/io-level-controls.md
+    - Front Panel: hardware-features/mpc-x-mpc-x-special-edition/front-panel.md
+    - Rear Panel: hardware-features/mpc-x-mpc-x-special-edition/rear-panel.md
+  - MPC Live:
+    - Top Panel: hardware-features/mpc-live/top-panel.md
+    - Rear Panel: hardware-features/mpc-live/rear-panel.md
+  - MPC Live II:
+    - Top Panel: hardware-features/mpc-live-ii/top-panel.md
+    - Rear Panel: hardware-features/mpc-live-ii/rear-panel.md
+  - MPC One / MPC One+:
+    - Top Panel:
+      - hardware-features/mpc-one-mpc-one/top-panel/index.md
+      - Navigation & Data Entry Controls: hardware-features/mpc-one-mpc-one/top-panel/navigation-data-entry-controls.md
+      - Pad & Q-Link Controls: hardware-features/mpc-one-mpc-one/top-panel/pad-q-link-controls.md
+      - Mode & View Controls: hardware-features/mpc-one-mpc-one/top-panel/mode-view-controls.md
+      - Transport & Recording Controls: hardware-features/mpc-one-mpc-one/top-panel/transport-recording-controls.md
+    - Front Panel: hardware-features/mpc-one-mpc-one/front-panel.md
+    - Rear Panel: hardware-features/mpc-one-mpc-one/rear-panel.md
+  - MPC One G2:
+    - Top Panel:
+      - hardware-features/mpc-one-g2/top-panel/index.md
+      - Navigation & Data Entry Controls: hardware-features/mpc-one-g2/top-panel/navigation-data-entry-controls.md
+      - Pad & Q-Link Controls: hardware-features/mpc-one-g2/top-panel/pad-q-link-controls.md
+      - Mode & View Controls: hardware-features/mpc-one-g2/top-panel/mode-view-controls.md
+      - Transport & Recording Controls: hardware-features/mpc-one-g2/top-panel/transport-recording-controls.md
+    - Front Panel: hardware-features/mpc-one-g2/front-panel.md
+    - Rear Panel: hardware-features/mpc-one-g2/rear-panel.md
+  - MPC Key 61:
+    - Top Panel: hardware-features/mpc-key-61/top-panel.md
+    - Rear Panel: hardware-features/mpc-key-61/rear-panel.md
+  - MPC Key 37:
+    - Top Panel: hardware-features/mpc-key-37/top-panel.md
+    - Rear Panel: hardware-features/mpc-key-37/rear-panel.md
+  - MPC Key 37 G2:
+    - Top Panel:
+      - hardware-features/mpc-key-37-g2/top-panel/index.md
+      - Navigation & Data Entry Controls: hardware-features/mpc-key-37-g2/top-panel/navigation-data-entry-controls.md
+      - Pad & Q-Link Controls: hardware-features/mpc-key-37-g2/top-panel/pad-q-link-controls.md
+      - Mode & View Controls: hardware-features/mpc-key-37-g2/top-panel/mode-view-controls.md
+      - Transport & Recording Controls: hardware-features/mpc-key-37-g2/top-panel/transport-recording-controls.md
+      - Keyboard Controls: hardware-features/mpc-key-37-g2/top-panel/keyboard-controls.md
+    - Rear Panel: hardware-features/mpc-key-37-g2/rear-panel.md
+- Appendix:
+  - appendix/index.md
+  - Glossary: appendix/glossary.md
+  - Effects & Parameters:
+    - appendix/effects-parameters/index.md
+    - Delay/Reverb: appendix/effects-parameters/delayreverb.md
+    - Dynamics: appendix/effects-parameters/dynamics.md
+    - EQ/Filter: appendix/effects-parameters/eqfilter.md
+    - Harmonic: appendix/effects-parameters/harmonic.md
+    - Modulation: appendix/effects-parameters/modulation.md
+    - Vocal: appendix/effects-parameters/vocal.md
+  - Plugins:
+    - appendix/plugins/index.md
+    - Bassline: appendix/plugins/bassline.md
+    - Electric: appendix/plugins/electric.md
+    - Hype: appendix/plugins/hype.md
+    - TubeSynth: appendix/plugins/tubesynth.md
+    - DrumSynth: appendix/plugins/drumsynth.md
+    - Mellotron: appendix/plugins/mellotron.md
+    - Solina: appendix/plugins/solina.md
+    - WayOutWare Odyssey: appendix/plugins/wayoutware-odyssey.md
+  - SATA Drive Installation: appendix/sata-drive-installation.md
+  - MIDI Machine Control (MMC): appendix/midi-machine-control-mmc.md
+  - Ableton Control Maps:
+    - MPC X / MPC X Special Edition: appendix/ableton-control-maps/mpc-x-mpc-x-special-edition.md
+    - MPC Live: appendix/ableton-control-maps/mpc-live.md
+    - MPC Live II: appendix/ableton-control-maps/mpc-live-ii.md
+    - MPC One G2: appendix/ableton-control-maps/mpc-one-g2.md
+    - MPC Key 37 G2: appendix/ableton-control-maps/mpc-key-37-g2.md
+  - Technical Specifications:
+    - MPC X / MPC X Special Edition: appendix/technical-specifications/mpc-x-mpc-x-special-edition.md
+    - MPC Live: appendix/technical-specifications/mpc-live.md
+    - MPC Live II: appendix/technical-specifications/mpc-live-ii.md
+    - MPC One / MPC One+: appendix/technical-specifications/mpc-one-mpc-one.md
+    - MPC One G2: appendix/technical-specifications/mpc-one-g2.md
+    - MPC Key 61: appendix/technical-specifications/mpc-key-61.md
+    - MPC Key 37: appendix/technical-specifications/mpc-key-37.md
+    - MPC Key 37 G2: appendix/technical-specifications/mpc-key-37-g2.md
+  - Trademarks & Licenses: appendix/trademarks-licenses.md
+- Addenda:
+  - addenda/index.md
+  - MPC Pro Pack:
+    - addenda/mpc-pro-pack/index.md
+    - MPC Clip Launching:
+      - addenda/mpc-pro-pack/mpc-clip-launching/index.md
+      - Clip Matrix Mode: addenda/mpc-pro-pack/mpc-clip-launching/clip-matrix-mode.md
+      - Navigate Mode: addenda/mpc-pro-pack/mpc-clip-launching/navigate-mode.md
+      - Clip Editor Mode: addenda/mpc-pro-pack/mpc-clip-launching/clip-editor-mode.md
+      - Main Mode – Arrangement & Clip Section:
+        - addenda/mpc-pro-pack/mpc-clip-launching/main-mode-arrangement-clip-section/index.md
+        - Arrangement: addenda/mpc-pro-pack/mpc-clip-launching/main-mode-arrangement-clip-section/arrangement.md
+        - Clips: addenda/mpc-pro-pack/mpc-clip-launching/main-mode-arrangement-clip-section/clips.md
+    - Advanced CV Track Edit:
+      - addenda/mpc-pro-pack/advanced-cv-track-edit/index.md
+      - Routing: addenda/mpc-pro-pack/advanced-cv-track-edit/routing.md
+      - Env 1–4: addenda/mpc-pro-pack/advanced-cv-track-edit/env-14.md
+      - LFO 1–4: addenda/mpc-pro-pack/advanced-cv-track-edit/lfo-14.md
+      - Stepper: addenda/mpc-pro-pack/advanced-cv-track-edit/stepper.md
+      - Utilities: addenda/mpc-pro-pack/advanced-cv-track-edit/utilities.md
+      - Matrix: addenda/mpc-pro-pack/advanced-cv-track-edit/matrix.md
+    - Q-Link Edit – Envelope Follower / LFO: addenda/mpc-pro-pack/q-link-edit-envelope-follower-lfo.md
+    - Super Warp Algorithm: addenda/mpc-pro-pack/super-warp-algorithm.md
+    - Pro Pack Plugins:
+      - addenda/mpc-pro-pack/pro-pack-plugins/index.md
+      - AIR Visual EQ4: addenda/mpc-pro-pack/pro-pack-plugins/air-visual-eq4.md
+      - AIR Reverb Pro: addenda/mpc-pro-pack/pro-pack-plugins/air-reverb-pro.md
+      - AIR Utility: addenda/mpc-pro-pack/pro-pack-plugins/air-utility.md
+      - AIR Fabric Select: addenda/mpc-pro-pack/pro-pack-plugins/air-fabric-select.md
+    - Import Ableton Live Projects: addenda/mpc-pro-pack/import-ableton-live-projects.md
